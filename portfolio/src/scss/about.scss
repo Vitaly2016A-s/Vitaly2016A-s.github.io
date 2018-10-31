@@ -1,0 +1,127 @@
+/* About */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* *** Content *** */
+
+/* Common styles - html&body */
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: $font_FiraSans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5rem; // Use relative points
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 1px 3px $color_shadow;
+  background-color: $color_white;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 940px; // Measured via Avocode
+}
+
+// Profile Image (avatar)
+.portfolio-image img {
+  height: 60px;
+  border: 3px solid $color_frame_icon;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+// Profile name
+.portfolio-name {
+  flex: 1 0 0;
+  margin-left: 20px;
+}
+.portfolio-name h2 { 
+  color: $color_gray;
+  font-weight: 400;
+}
+
+// Profile contact link
+.contact-link {
+  justify-content: flex-end;
+  border-bottom: 1px solid $color_contact;
+  border-style: none none dotted;
+}
+.contact-link a {
+  color: $color_contact;
+  text-decoration: none;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  width: 100%;
+  flex: 1 0 auto;
+/*   text-align: center; */
+}
+.content,
+.sidebar {
+  display: flex;
+  flex: 2 1 auto;
+}
+
+.sidebar {
+  text-align: right;
+  color: $color_gray;
+  width: 350px;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.linked a {
+  color: $color_linked;
+  border-right: 5px solid $color-linked;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: $color_footer;
+}
+
+/* *** Fonts *** */
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p{
+  font-weight: 300;
+}

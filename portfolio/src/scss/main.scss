@@ -1,0 +1,71 @@
+/* Main - Index - Portfolio */
+.wrapper {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 560px;
+	margin: 0 auto;
+	height:100%;
+}
+
+.index {
+	height: 300px;
+	width: 300px;
+	border: 0;
+	border-radius: 0 0 15px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.index-header {
+	margin: 0 auto;
+}
+
+.index-header img {
+	height: 140px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.index-main {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.index-main h2 { 
+	color: $color_gray;
+	font-family: $font_OpenSans;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 28px;
+}
+
+.index-footer {
+	text-align: center;
+	background-color: $color_index_btn;
+	border: 0;
+	border-radius: 0 0 15px 15px;
+	height: 78px;
+	padding: 31px 70px 31px;
+}
+
+.index-footer a{
+   color: $color_white;
+   font-family: $font_FiraSans;
+   text-decoration: none;
+	 font-size: 15px;
+	 font-weight: 700;
+	 /* line-height: 28px; */
+   border: 2px solid $color_white;
+   border-radius: 20px;
+   padding: 12px 15px 13px;
+}
