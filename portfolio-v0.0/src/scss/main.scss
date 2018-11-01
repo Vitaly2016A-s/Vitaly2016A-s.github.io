@@ -1,4 +1,6 @@
 /* Main - Index - Portfolio */
+
+// Wrapper is something like canvas
 .wrapper {
 	margin: 0;
 	height: 100%;
@@ -11,7 +13,7 @@
 	align-items: center;
 	max-width: 560px;
 	margin: 0 auto;
-	height:100%;
+	height: 100%;
 }
 
 .index {
@@ -22,18 +24,22 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	box-shadow: 0.1em 0.05em 0.05em $color_shadow, -0.05em 0 $color_shadow; // Подогнал размеры тени на глаз
 }
 
+// index-header is avatar profile
 .index-header {
 	margin: 0 auto;
 }
 
 .index-header img {
-	height: 140px;
+	height: 138px;
 	border-radius: 50%;
+	border: 2px solid $color_shadow;
 	margin: 0 auto;
 }
 
+// Block with username
 .index-main {
 	display: flex;
 	align-items: center;
@@ -49,6 +55,7 @@
 	line-height: 28px;
 }
 
+// Footer for a link
 .index-footer {
 	text-align: center;
 	background-color: $color_index_btn;
@@ -58,6 +65,7 @@
 	padding: 31px 70px 31px;
 }
 
+// Link to about.html page
 .index-footer a{
    color: $color_white;
    font-family: $font_FiraSans;

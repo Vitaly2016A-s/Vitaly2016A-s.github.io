@@ -175,14 +175,16 @@ p {
   border-radius: 0 0 15px 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  box-shadow: 0.1em 0.05em 0.05em rgba(0, 0, 0, 0.2), -0.05em 0 rgba(0, 0, 0, 0.2); }
 
 .index-header {
   margin: 0 auto; }
 
 .index-header img {
-  height: 140px;
+  height: 138px;
   border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
   margin: 0 auto; }
 
 .index-main {
