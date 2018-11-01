@@ -119,20 +119,33 @@ main {
   color: #414141;
   width: 350px; }
 
+.content-photo {
+  flex: 1 1 auto; }
+
 ul {
   list-style-type: none; }
 
 a {
+  display: block;
   text-decoration: none;
-  padding: 10px 20px; }
+  white-space: nowrap;
+  padding: 14px 24px;
+  height: 44px; }
 
-.linked a {
+.link-on a, .link-off a:hover {
   color: #4db2ce;
-  border-right: 5px solid #4db2ce; }
+  border-right: 6px solid #4db2ce; }
+
+.link-off a {
+  color: #414141;
+  border-right: 6px solid #fff; }
+
+.fa {
+  margin-right: 7px; }
 
 /* Footer */
 footer {
-  text-align: center;
+  white-space: nowrap;
   margin: 0 auto;
   height: 50px;
   width: 100%;
@@ -202,7 +215,7 @@ p {
   border: 0;
   border-radius: 0 0 15px 15px;
   height: 78px;
-  padding: 31px 70px 31px; }
+  padding: 21px 70px 31px; }
 
 .index-footer a {
   color: #fff;
@@ -213,6 +226,6 @@ p {
   /* line-height: 28px; */
   border: 2px solid #fff;
   border-radius: 20px;
-  padding: 12px 15px 13px; }
+  padding: 9px 15px 13px; }
 
 /* Main SCSS File for CSS compiling */
