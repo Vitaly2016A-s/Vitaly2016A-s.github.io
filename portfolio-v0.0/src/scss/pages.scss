@@ -1,4 +1,4 @@
-/* About */
+/* Pages stylizing - About, Contacts, Portfolio */
 * {
   padding: 0;
   margin: 0;
@@ -30,11 +30,9 @@ header {
   box-shadow: 0 1px 3px $color_shadow;
   background-color: $color_white;
 }
-.container {
-  display: flex;
-  align-items: center;
+
+header .container {
   justify-content: space-between;
-  max-width: 940px; // Measured via Avocode
 }
 
 // Profile Image (avatar)
@@ -72,8 +70,8 @@ main {
   display: flex;
   width: 100%;
   flex: 1 0 auto;
-/*   text-align: center; */
 }
+
 .content,
 .sidebar {
   display: flex;

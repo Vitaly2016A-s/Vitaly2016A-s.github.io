@@ -50,7 +50,7 @@
 
 /* Variables for fonts */
 /* Colors */
-/* About */
+/* Pages stylizing - About, Contacts, Portfolio */
 * {
   padding: 0;
   margin: 0;
@@ -77,11 +77,8 @@ header {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   background-color: #fff; }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 940px; }
+header .container {
+  justify-content: space-between; }
 
 .portfolio-image img {
   height: 60px;
@@ -110,8 +107,7 @@ header {
 main {
   display: flex;
   width: 100%;
-  flex: 1 0 auto;
-  /*   text-align: center; */ }
+  flex: 1 0 auto; }
 
 .content,
 .sidebar {
@@ -164,7 +160,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 560px;
+  max-width: 940px;
   margin: 0 auto;
   height: 100%; }
 
