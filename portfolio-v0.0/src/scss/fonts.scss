@@ -1,5 +1,6 @@
 /* Fonts */
 
+// Open Sans - Semibold
 @font-face {
   font-family: 'Open Sans - Semibold';
     src: url('../fonts/OpenSans/OpenSans-Semibold-webfont.woff') format('woff');
@@ -8,6 +9,7 @@
   font-display: swap;
 }
 
+// Open Sans - Regular
 @font-face {
   font-family: 'Open Sans - Regular';
     src: url('../fonts/OpenSans/OpenSans-Regular-webfont.woff') format('woff');
@@ -16,6 +18,7 @@
   font-display: swap;
 }
 
+// Fira Sans - Bold
 @font-face {
   font-family: 'Fira Sans';
   src: url('../fonts/FiraSans/firasans-bold-webfont.woff2') format('woff2'),
@@ -25,6 +28,7 @@
   font-display: swap;
 }
 
+// Fira Sans - Medium
 @font-face {
   font-family: 'Fira Sans';
   src: url('../fonts/FiraSans/firasans-medium-webfont.woff2') format('woff2'),
@@ -34,6 +38,7 @@
   font-display: swap;
 }
 
+// Fira Sans - Regular
 @font-face {
   font-family: 'Fira Sans';
   src: url('../fonts/FiraSans/firasans-regular-webfont.woff2') format('woff2'),
@@ -43,6 +48,7 @@
   font-display: swap;
 }
 
+// Fira Sans - Light
 @font-face {
   font-family: 'Fira Sans';
   src: url('../fonts/FiraSans/firasans-light-webfont.woff2') format('woff2'),
@@ -52,7 +58,7 @@
   font-display: swap;
 }
 
-// Font icon
+/* Font Icon */
 
 @font-face {
   font-family: 'FontAwesome';

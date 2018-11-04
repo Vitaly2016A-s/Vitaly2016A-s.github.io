@@ -42,6 +42,7 @@
   font-style: normal;
   font-display: swap; }
 
+/* Font Icon */
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/webfont.woff2?v=4.7.0") format("woff2");
@@ -65,10 +66,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: "Fira Sans", "Arial", sans-serif;
+  /* font-family: $font_FiraSans;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.5rem; }
+  line-height: 1.5rem; */
+  font: 700 18px/1.5 "Fira Sans", "Arial", sans-serif; }
 
 /* Header */
 header {
@@ -135,11 +137,11 @@ a {
   padding: 14px 24px;
   height: 44px; }
 
-.link-on a, .link-off a:hover {
+.link-on a, .link a:hover {
   color: #4db2ce;
   border-right: 6px solid #4db2ce; }
 
-.link-off a {
+.link a, .link a:visited {
   color: #414141;
   border-right: 6px solid #fff; }
 
@@ -162,7 +164,7 @@ a {
   padding-bottom: 30px; }
 
 .resume-download {
-  width: 173px;
+  width: 213px;
   height: 40px;
   border: 2px solid #e85f61;
   border-radius: 20px; }

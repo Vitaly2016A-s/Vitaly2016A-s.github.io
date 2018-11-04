@@ -16,10 +16,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: $font_FiraSans;
+  /* font-family: $font_FiraSans;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.5rem; // Use relative points
+  line-height: 1.5rem; */ // Use relative points
+  font: 700 18px/1.5 $font_FiraSans;
 }
 
 /* Header */
@@ -103,12 +104,12 @@ a {
   height: 44px;
 }
 
-.link-on a, .link-off a:hover {
+.link-on a, .link a:hover {
   color: $color_selected-link;
   border-right: 6px solid $color_selected-link;
 }
 
-.link-off a {
+.link a, .link a:visited {
   color: $color_gray;
   border-right: 6px solid $color_white;
 }
@@ -137,7 +138,7 @@ a {
 }
 
 .resume-download {
-  width: 173px;
+  width: 213px;
   height: 40px;
   border: 2px solid $color_resume;
   border-radius: 20px;
