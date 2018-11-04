@@ -66,10 +66,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  /* font-family: $font_FiraSans;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.5rem; */
   font: 700 18px/1.5 "Fira Sans", "Arial", sans-serif; }
 
 /* Header */
@@ -101,9 +97,29 @@ header .container {
   border-bottom: 1px solid #32c3e5;
   border-style: none none dotted; }
 
+.contact-link:hover {
+  border-bottom: 1px solid #e85f61;
+  border-style: none none dotted; }
+
 .contact-link a {
   color: #32c3e5;
   text-decoration: none; }
+
+.contact-link a:hover {
+  color: #e85f61; }
+
+.contact-link-dropdown {
+  display: none;
+  position: absolute;
+  white-space: nowrap;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1; }
+
+.contact-link:hover .contact-link-dropdown {
+  display: block; }
 
 /* Main */
 main {
