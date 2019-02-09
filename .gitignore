@@ -1,0 +1,4 @@
+# gitignore file
+##
+prepros-6.config
+.git-add-commit-push.sh
