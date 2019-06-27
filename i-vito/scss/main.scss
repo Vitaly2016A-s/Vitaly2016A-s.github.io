@@ -1,10 +1,84 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* 
+  IMPORTANT! Some tricks gots from YouTube - https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw
+  Thank you a lot, DarkCode! :) 
+ */
 
 body {
-  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  background: url(../img/bg-forest.jpg) no-repeat;
+  background-size: cover;
 }
 
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 450px;
+  background-color: rgba(0,0,0,.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.main_title {
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.main_title h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.main_title h5 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+/* 
+.main_title p {
+  text-align: justify;
+}
+ */
+.main_title__img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main_title li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.main_title li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms; // плавное угасание объекта после наведения
+}
+
+/* Hover Colors */
+
+// VK
+.main_title li a.vk:hover {
+  color: #aaf; 
+}
+// Facebook
+.main_title li a.facebook:hover {
+  color: #55f; 
+}
+// Instagram
+.main_title li a.instagram:hover {
+  color: rgb(255, 0, 242); 
+}
