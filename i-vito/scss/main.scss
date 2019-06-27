@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+  display: flex;
   width: 450px;
   background-color: rgba(0,0,0,.4);
   padding: 40px;
@@ -65,7 +66,7 @@ ul {
   color: white;
   text-decoration: none;
   font-size: 60px;
-  transition: all ease-in-out 250ms; // плавное угасание объекта после наведения
+  transition: all ease-in-out 250ms; // ( 1 - плавное угасание объекта после наведения )
 }
 
 /* Hover Colors */
@@ -82,3 +83,29 @@ ul {
 .main_title li a.instagram:hover {
   color: rgb(255, 0, 242); 
 }
+
+/* Кнопка с переходом на сайт */
+
+/* Для новичков */
+// Верстая кнопу с помощью гиперссылки, мы в качестве блока размечаем только ОТСТУПЫ,
+.main_btn {
+  padding: 0;
+  margin: 13px 0;
+}
+// а стилизируем только саму ГИПЕРСЫЛКУ!
+.main_btn a {
+  text-align: center;
+  padding: 13px 45px;
+  background-color: #00f;
+  border-radius: 5px;
+  transition: all ease-in-out 250ms; // (1)
+  color: #ff0;
+  text-decoration: none;
+  font-size: 20px;
+}
+// наводим мышку....
+.main_btn a:hover{
+  background-color: #ff0;
+  color: #00f;
+}
+

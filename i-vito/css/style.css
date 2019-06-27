@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 
   IMPORTANT! Some tricks gots from YouTube - https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw
   Thank you a lot, DarkCode! :) 
@@ -12,6 +13,9 @@ body {
   width: 100%; }
 
 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 450px;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 40px;
@@ -69,3 +73,25 @@ ul {
 
 .main_title li a.instagram:hover {
   color: #ff00f2; }
+
+/* Кнопка с переходом на сайт */
+/* Для новичков */
+.main_btn {
+  padding: 0;
+  margin: 13px 0; }
+
+.main_btn a {
+  text-align: center;
+  padding: 13px 45px;
+  background-color: #00f;
+  border-radius: 5px;
+  -webkit-transition: all ease-in-out 250ms;
+  -o-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+  color: #ff0;
+  text-decoration: none;
+  font-size: 20px; }
+
+.main_btn a:hover {
+  background-color: #ff0;
+  color: #00f; }
