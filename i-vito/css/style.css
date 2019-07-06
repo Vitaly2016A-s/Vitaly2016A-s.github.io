@@ -109,4 +109,22 @@ ul {
     margin: 0; }
   .container {
     margin: 0;
-    height: 840px; } }
+    height: 840px; }
+  .main_title h1 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    padding: 5px 0; }
+  .main_title h5 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    padding: 15px 0; }
+  .main_title p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100; }
+  .main_title__img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; } }
