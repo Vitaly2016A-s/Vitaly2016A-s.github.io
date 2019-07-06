@@ -102,3 +102,11 @@ ul {
 .main_btn a:hover {
   background-color: #ff0;
   color: #00f; }
+
+/* Адаптивность */
+@media only screen and (max-width: 450px) {
+  .wrapper {
+    margin: 0; }
+  .container {
+    margin: 0;
+    height: 840px; } }
