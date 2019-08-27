@@ -8,7 +8,6 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -26,8 +25,6 @@ body {
   width: 100%; }
 
 .container-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 450px;
   background-color: rgba(0, 0, 0, 0.4);
@@ -80,8 +77,6 @@ ul {
   color: white;
   text-decoration: none;
   font-size: 60px;
-  -webkit-transition: all ease-in-out 250ms;
-  -o-transition: all ease-in-out 250ms;
   transition: all ease-in-out 250ms; }
 
 /* Hover Colors */
@@ -106,8 +101,6 @@ ul {
 
 .contact-info {
   margin: auto;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   margin: 13px auto; }
 
