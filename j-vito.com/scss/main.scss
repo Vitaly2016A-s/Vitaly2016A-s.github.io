@@ -13,10 +13,17 @@
 
 body {
   background: url(../img/bg-forest.jpg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;   // (2 - адаптивность)
-  background-size: cover;
+  background-size: cover; */
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* Импорт вложенных в папку SCSS стилей */
