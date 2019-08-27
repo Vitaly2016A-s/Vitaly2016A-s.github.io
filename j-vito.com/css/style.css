@@ -11,7 +11,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
+html {
   background: url(../img/bg-forest.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -19,9 +19,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  top: 0;
-  left: 0; }
+  background-size: cover; }
 
 /* Импорт вложенных в папку SCSS стилей */
 /* Fonts SCSS */

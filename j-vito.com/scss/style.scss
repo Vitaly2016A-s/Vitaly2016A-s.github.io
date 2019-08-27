@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   background: url(../img/bg-forest.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -20,8 +20,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  top: 0; 
-  left: 0; 
+  // top: 0; 
+  // left: 0; 
 
 //   /* Preserve aspet ratio */
 //   min-width: 100%;
