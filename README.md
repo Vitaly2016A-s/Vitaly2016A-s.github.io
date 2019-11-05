@@ -18,4 +18,4 @@ My portfolio list.
 
 From HTML Academy:
   - 1. Barbershop ([Web Page](https://vitaly2016a-s.github.io/HTML-Academy/BarberShop/index.html), [GitHub URL](https://github.com/Vitaly2016A-s/Vitaly2016A-s.github.io/tree/master/HTML-Academy/BarberShop))
-  - 2. G-Keti ([Web Page (PHP)](https://Vitaly2016A-s.github.io/g-keti.com/index.php), [GitHub URL](https://github.com/Vitaly2016A-s/Vitaly2016A-s.github.io/blob/master/g-keti.com)) 
+  - 2. G-Keti ([Web Page](https://Vitaly2016A-s.github.io/g-keti.com/index.html), [GitHub URL](https://github.com/Vitaly2016A-s/Vitaly2016A-s.github.io/blob/master/g-keti.com)) 
