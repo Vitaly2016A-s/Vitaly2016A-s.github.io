@@ -13,6 +13,14 @@ body {
   color: $color_text_main;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
+ul{
+  list-style-type: none;
+}
+
 /* Width of pages */
 .header-page, .main-page, .footer-page {
   max-width: 100%;
@@ -57,10 +65,6 @@ body {
   text-transform: uppercase;
 }
 
-.header-menu ul{
-  list-style-type: none;
-}
-
 .header-menu li{
   display: inline;
 }
@@ -96,6 +100,34 @@ body {
   margin: 25px;
   align-self: center;
   text-align: center;
+}
+
+.contacts li {
+  margin: 15px;
+  padding: 21px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Noto Serif", serif;
+  font-size: 16px;
+}
+
+.button-whatsapp {
+  background-color: $color_contact_button-whatsapp;
+}
+.button-facebook {
+  background-color: $color_contact_button-facebook;
+}
+.button-instagram {
+  background-color: $color_contact_button-instagram;
+}
+
+.button-whatsapp:hover, .button-facebook:hover, .button-instagram:hover {
+  opacity: 0.5;
 }
 
 /* FOOTER */
