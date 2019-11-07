@@ -11,26 +11,41 @@
 <body>
 
 <!-- HEADER -->
-<header class="header-page">
-  <div class="header-logo">
-    <div class="header-logo--pic">
-      <a href="#"><img src="./img/logo.png" alt="G Keti"></a>
+<header class="header-page" id="header-page">
+  <div class="header-container">
+    <div class="header-logo">
+      <div class="header-logo--pic">
+        <a href="#header-page"><img src="./img/logo.png" alt="G Keti"></a>
+      </div>
     </div>
-  </div>
-  <div class="header-menu">
-    <ul>
-      <li><a href="./about.html" title="Обо мне">Обо мне</a></li>
-      <li><a href="./contacts.html" title="Контакты">Контакты</a></li>
-    </ul>
+    <div class="header-menu">
+      <ul>
+        <li><a href="#section-about" title="Обо мне">Обо мне</a></li>
+        <li><a href="#section-photo" title="Фото">Фото</a></li>
+        <li><a href="#section-contacts" title="Контакты">Контакты</a></li>
+      </ul>
+    </div>
   </div>
 </header>
 
 <!-- MAIN -->
 <main class="main-page">
-  <div class="container-page">
+  <section class="container-page section-index" id="section-index">
     <h2>Кетеван Габаташвили</h2>
     <p>Туры в Грузию</p>
-  </div>
+  </section>
+  <section class="container-page section-about" id="section-about">
+    <h2>Обо мне</h2>
+    <p>Обо мне, любимой, Кети</p>
+  </section>
+  <section class="container-page section-photo" id="section-photo">
+    <h2>Моя фото галлерея</h2>
+    <p>Фотогаллерея. Фотографии Грузии. Экскурсии.</p>
+  </section>
+  <section class="container-page section-contacts" id="section-contacts">
+    <h2>Мои контакты</h2>
+    <p>Здесь будут мои контакты WhatsApp, Instagram и Facebook</p>
+  </section>
 </main>
 
 <!-- FOOTER -->
@@ -43,7 +58,7 @@
   </div>
 </footer>
 
-  <!-- <script src="jquery-3.4.1.min.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
   <script src="./js/main.js"></script>
 </body>
 </html>

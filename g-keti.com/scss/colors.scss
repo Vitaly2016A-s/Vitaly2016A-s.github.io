@@ -1,13 +1,13 @@
 /*** FILE: COLORS.CSS ***/
 
 /* Background */
-$color_background_header: #000;           // header
-$color_background_header_logo: #555;
-$color_background_main: #222;             //  main
-$color_background_footer_bottom: #333;    // footer-bottom
+$color_background_header-page: #000;          // header-page
+$color_background_header-container: rgba(0, 0, 0, 0.7);     // header-container
+$color_background_main: #222;                 // main
+$color_background_footer_bottom: #333;        // footer-bottom
 
 /* Text and links */
-$color_text_main: #fff;                    // main text
+$color_text_main: #fff;                       // main text
 
 /* Hover link */
-$colot_link-header-hover: #ffaa00;        // link:hover
+$colot_link-header-hover: #ffaa00;            // link:hover
