@@ -50,7 +50,6 @@ ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  position: fixed;
   top: 0;
   width: 100%; }
 
@@ -145,12 +144,12 @@ ul {
   width: 8px;
   height: 8px;
   cursor: pointer;
-  margin: 0 3px;
+  margin: 14px 3px;
   -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
   border-radius: 50%;
-  border: 5px solid #2f363c;
-  background-color: #738290; }
+  border: 5px solid #0072d6;
+  background-color: #e2a90b; }
 
 #btn1:checked ~ .switch label[for="btn1"] {
   background-color: white; }
@@ -191,8 +190,11 @@ ul {
   transform: translate(-700px); }
 
 /* End of Slider */
+.section-contact-top {
+  margin-top: 60px; }
+
 .contacts li {
-  margin: 15px;
+  margin: 7% 0;
   padding: 21px;
   border-radius: 5px;
   width: 250px; }
@@ -244,19 +246,20 @@ ul {
 
 @media screen and (max-width: 512px) {
   .header-page, .header-container {
-    height: 250px; }
+    height: 90px; }
   .header-container {
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
+    -ms-flex-direction: row;
+    flex-direction: row; }
   .header-menu li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
+    -ms-flex-direction: row;
+    flex-direction: row; }
   .header-menu ul a {
-    text-align: center; } }
+    text-align: center;
+    font-size: 10px; } }
