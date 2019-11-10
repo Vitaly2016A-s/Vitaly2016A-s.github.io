@@ -1,0 +1,39 @@
+/* 
+  IMPORTANT! Some tricks gots from YouTube - https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw
+  Thank you a lot, DarkCode! :) 
+ */
+
+/* Главные характеристики страницы */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+/* Импорт вложенных в папку SCSS стилей */
+
+@import 'fonts.scss';
+@import 'index.scss';

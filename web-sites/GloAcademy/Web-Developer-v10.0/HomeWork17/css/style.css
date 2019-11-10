@@ -1,0 +1,53 @@
+.my-modal {
+	position: absolute;
+	left: 350px;
+	text-align: center;
+	border: 2px solid gray;
+	width: 500px;
+	height: 300px;
+	top: -150px;
+}
+
+.txt {
+	color: #fff;
+}
+
+.delete {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+	background-color: black;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.btn-yes {
+	color: white;
+	background-color: green;
+	font-size: 14px;
+	width: 50px;
+	height: 20px;
+	border: none;
+	border-radius: 4px;
+}
+
+.btn-no {
+	color: white;
+	background-color: red;
+	font-size: 14px;
+	width: 50px;
+	height: 20px;
+	border: none;
+	border-radius: 4px;
+}
+
+.btn-close {
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	top: 0;
+	left: 410px;
+}

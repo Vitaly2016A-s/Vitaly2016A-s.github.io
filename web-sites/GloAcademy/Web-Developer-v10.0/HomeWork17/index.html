@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Урок№17 :: Модальные окна</title>
+		<script src="js/jquery-3.2.1.min.js"></script>
+  		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script>
+					$(function () {
+			$('.popup-modal').magnificPopup({
+				type: 'inline',
+				preloader: false,
+				focus: '#username',
+				modal: true
+			});
+			$(document).on('click', '.popup-modal-dismiss', function (e) {
+				e.preventDefault();
+				$.magnificPopup.close();
+			});
+		});
+		</script>
+		<link rel="stylesheet" href="css/magnific-popup.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		
+		
+			<a class="popup-modal delete" href="#test-modal">Удалить файл</a>
+
+			<div id="test-modal" class="white-popup-block mfp-hide">
+				<div class="my-modal">
+					<p><a class="popup-modal-dismiss btn-close" href="#">&times</a></p>
+					<h1 class="txt">Удаление файла</h1>
+					<p class="txt">Вы действительно хотите удалить этот файл? Да/Нет</p>
+					<button class="btn-yes">Да</button>
+					<button class="btn-no">Нет</button>
+				</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+/* Main - Index - Portfolio */
+
+// Wrapper is something like canvas
+.wrapper {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 940px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.index {
+	height: 300px;
+	width: 300px;
+	border: 0;
+	border-radius: 0 0 15px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0.1em 0.05em 0.05em $color_shadow, -0.05em 0 $color_shadow; // Подогнал размеры тени на глаз
+}
+
+// index-header is avatar profile
+.index-header {
+	margin: 0 auto;
+}
+
+.index-header img {
+	height: 138px;
+	border-radius: 50%;
+	border: 2px solid $color_shadow;
+	margin: 0 auto;
+}
+
+// Block with username
+.index-main {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.index-main h2 { 
+	color: $color_gray;
+	font-family: $font_OpenSans;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 28px;
+}
+
+// Footer for a link
+.index-footer {
+	text-align: center;
+	background-color: $color_index_btn;
+	border: 0;
+	border-radius: 0 0 15px 15px;
+	height: 78px;
+	padding: 21px 70px 31px;
+}
+
+// Link to about.html page
+.index-footer a{
+   color: $color_white;
+   font-family: $font_FiraSans;
+   text-decoration: none;
+	 font-size: 15px;
+	 font-weight: 700;
+	 /* line-height: 28px; */
+   border: 2px solid $color_white;
+   border-radius: 20px;
+   padding: 9px 15px 13px;
+}

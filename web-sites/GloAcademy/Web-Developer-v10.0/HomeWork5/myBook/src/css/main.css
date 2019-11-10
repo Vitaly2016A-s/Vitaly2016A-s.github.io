@@ -1,0 +1,38 @@
+/*
+ * main.css 
+ *
+ */
+
+		h1, h2 {
+ 				text-align: center;
+ 			}
+ 			ul {
+ 				border: 2px double black;
+ 				background: rgb(250,250,150);
+ 			}
+
+ 		.my-strong {
+ 				font-weight: bold; 
+ 		}
+
+ 		.my-del {
+ 				text-decoration: line-through;
+ 		}
+
+ 		.my-mark {
+				background-color: yellow;
+ 		}
+		.my-em {
+			font-style: italic;
+		}
+		.my-u {
+			text-decoration: underline;
+		}
+
+		.my-sub {
+			vertical-align: sub;
+		}
+
+		.my-sup {
+			vertical-align: super;
+		}

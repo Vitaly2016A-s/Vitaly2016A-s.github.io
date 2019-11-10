@@ -1,0 +1,73 @@
+/* Fonts */
+
+// Open Sans - Semibold
+@font-face {
+  font-family: 'Open Sans - Semibold';
+    src: url('../fonts/OpenSans/OpenSans-Semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Open Sans - Regular
+@font-face {
+  font-family: 'Open Sans - Regular';
+    src: url('../fonts/OpenSans/OpenSans-Regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Fira Sans - Bold
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans/firasans-bold-webfont.woff2') format('woff2'),
+       url('../fonts/FiraSans/firasans-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Fira Sans - Medium
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans/firasans-medium-webfont.woff2') format('woff2'),
+       url('../fonts/FiraSans/firasans-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Fira Sans - Regular
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans/firasans-regular-webfont.woff2') format('woff2'),
+       url('../fonts/FiraSans/firasans-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Fira Sans - Light
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans/firasans-light-webfont.woff2') format('woff2'),
+       url('../fonts/FiraSans/firasans-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font Icon */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/webfont.woff2?v=4.7.0') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Variables for fonts */
+$font_OpenSans: 'Open Sans - Semibold', 'Arial', sans-serif;
+$font_FiraSans: 'Fira Sans', 'Arial', sans-serif;  

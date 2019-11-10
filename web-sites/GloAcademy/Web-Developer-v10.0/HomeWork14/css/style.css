@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Open+Sans');
+@font-face {
+	font-family: 'Bebas';
+	src: url('../font/Bebas.eot');
+	src: url('../font/Bebas.eot?#iefix') format('embedded-opentype'),
+		url('../font/Bebas.woff') format('woff'),
+		url('../font/Bebas.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+
+/* Подключаем Шрифты */
+
+.result_open_sans {
+	font-family: 'Open Sans', sans-serif;
+}
+.result_bebas {
+	font-family: 'Bebas', sans-serif;
+}
+.result_lato {
+	font-family: 'Lato', sans-serif;
+}
+.result_lobster {
+	font-family: 'Lobster', cursive;
+}
+/* *** */
+
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
