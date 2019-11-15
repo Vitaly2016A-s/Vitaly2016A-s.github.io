@@ -1,5 +1,3 @@
-
-
 # Веб Сайты
 
 ### [Барбершоп](http://htmlpreview.github.io/?https://github.com/Safe-Mode/barbershop/blob/master/index.html)	
