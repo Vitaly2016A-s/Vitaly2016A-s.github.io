@@ -68,14 +68,20 @@
     margin-top: 75px;
     margin-right: 50px;
     margin-left: -20px;
+    border-radius: 15px;
 }
 
 .contact-link-dropdown ul {
     list-style-type: none;
+    
 }
 
 .contact-link-dropdown ul li {
-    margin: 10px 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.contact-link-dropdown ul li:last-child {
+    border: none;
 }
 
 .contact-link-dropdown ul li a{
