@@ -1,0 +1,75 @@
+/* Hello - Index */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.wrapper-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+    height: 233px;
+    box-shadow: 1px 2px #eee;     // no idea what is shadow here...
+    border-radius: 15px 15px 15px 15px;
+    background-color: #fff;
+}
+
+.wrapper-container--photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -66px;
+}
+
+.wrapper-container--photo img {
+    width: 138px;
+    height: 138px;
+    border: 2px solid #aaa;
+    border-radius: 50%;
+}
+
+.wrapper-container--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-container--title p {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #000;
+}
+
+.wrapper-container--link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;;
+    background-color: $color_link;
+    border-radius: 0 0 15px 15px;
+}
+
+.wrapper-container--link-button a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-family: "FiraSans-Bold", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.wrapper-container--link-button a:hover {
+    color: $color_link;
+    border: 2px solid $color_link;
+    background-color: #fff;
+}

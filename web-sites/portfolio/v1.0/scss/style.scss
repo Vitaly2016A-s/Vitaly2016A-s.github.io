@@ -1,0 +1,38 @@
+/* import - support */
+@import 'fonts.scss';
+@import 'colors.scss';
+
+/* Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: $color_wrapper;
+}
+
+.header-page, .main-page, .footer-page {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    width: 100%;
+    max-width: 940px;
+}
+
+
+/* import - pages */
+@import 'index.scss';
+@import 'header.scss';
+@import 'main.scss';
+@import 'footer.scss';

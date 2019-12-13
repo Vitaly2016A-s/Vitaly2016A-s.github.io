@@ -1,0 +1,128 @@
+/* Pages - Main */
+
+/* MAIN */
+
+.main-page {
+    background-color: $color_wrapper;
+}
+
+.container-page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex;
+    flex: 2 1 auto;
+    align-self: flex-start;
+    justify-content: flex-end;
+    margin: 30px 0;
+    padding: 0;
+    // background-color: #eee;
+}
+
+.menu-nav {
+    list-style-type: none;
+    text-align: right;
+}
+
+.menu-items {
+    padding: 10px 0;
+       
+}
+
+.border-active {
+    border-right: 5px solid $color_link;
+    color: $color_link;
+}
+
+.border-passed {
+    border-right: 5px solid #fff;
+}
+
+.menu-items-link {
+    text-decoration: none; 
+    padding-right: 20px;
+
+}
+
+.link-active {
+    color: $color_link;
+}
+
+.link-passed {
+    color: #000;
+}
+
+.menu-items-link:hover {
+    color: $color_link;
+}
+
+.main-page--about {
+    display: flex;
+    flex: 1 2 auto;
+    margin: 30px 0;
+    align-self: flex-end;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.main-page--about-photo img {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+
+.main-page--about-description {
+    // background-color: #eaeaea;
+    width: 380px;
+}
+
+.description-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.description-title  strong {
+    font-family: 'FiraSans-Medium';
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.description-about {
+    display: block
+}
+
+.description-about p {
+    font-family: 'FiraSans-Light';
+    font-size: 18px;
+    font-weight: normal;
+    color: #434343;
+    padding: 5px 0;
+}
+
+.description-resume {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+.resume {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: $color_red;
+    border: 2px solid $color_red;
+    border-radius: 20px;
+    font-family: "FiraSans-Bold", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.resume:hover {
+    color: #fff;
+    border: 2px solid $color_red;
+    background-color: $color_red;
+}
+

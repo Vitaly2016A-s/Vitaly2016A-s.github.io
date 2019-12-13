@@ -1,0 +1,30 @@
+/* FOOTER */
+
+.footer-page {
+    height: 50px;
+    background-color: $color_footer;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-page--copyright {
+    color: $color_footer-text;
+}
+
+.social-network-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-item-social {
+    color: #aaa;
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.nav-item-social:hover {
+    color: $color_link;
+}

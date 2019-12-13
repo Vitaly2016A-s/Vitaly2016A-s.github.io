@@ -1,0 +1,96 @@
+/* HEADER */
+
+
+.header-page {
+    height: 80px;
+    background-color: #fff;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-menu--author {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu--author-logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.header-menu--author-name {
+    display: flex;
+    align-items: center;
+    font-family: 'FiraSans-Regular';
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.header-menu--contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link {
+    // display: flex;
+    // align-items: center;
+    color: $color_link;
+    text-decoration: none;
+    font-family: 'FiraSans-Bold';
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid $color_link;
+    border-style: none none dotted;
+}
+
+.contact-link:hover {
+    color: $color_red;
+    border-bottom: 2px solid $color_red;
+    border-style: none none dotted;
+}
+
+.contact-link-dropdown {
+    display: none;
+    position: absolute;
+    white-space: nowrap;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: -20px;
+}
+
+.contact-link-dropdown ul {
+    list-style-type: none;
+}
+
+.contact-link-dropdown ul li {
+    margin: 10px 5px;
+}
+
+.contact-link-dropdown ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-link-dropdown ul li a:hover{
+    color: $color_link;
+}
+
+.header-menu--contact:hover .contact-link-dropdown {
+   display: block;
+ }
+
+ .dropdown-link-item i {
+     color: $color_link;
+ }
