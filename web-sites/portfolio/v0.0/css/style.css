@@ -65,13 +65,13 @@ body {
   border-radius: 15px 15px 15px 15px;
   background-color: #fff; }
 
-.index-container__photo {
+.index-container__avatar {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -66px; }
 
-.user-photo {
+.avatar {
   width: 138px;
   height: 138px;
   border: 2px solid #aaa;
@@ -128,16 +128,22 @@ body {
   display: flex;
   justify-content: space-between; }
 
-.header-menu--author-logo img {
+.user {
+  display: flex;
+  justify-content: space-between; }
+
+.user_img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
   border: 1px solid #000; }
 
-.header-menu--author-name {
+.user_link {
   display: flex;
   align-items: center;
   font-family: 'FiraSans-Regular';
+  text-decoration: none;
+  color: #000;
   font-weight: 200;
   font-size: 18px;
   margin-left: 20px; }

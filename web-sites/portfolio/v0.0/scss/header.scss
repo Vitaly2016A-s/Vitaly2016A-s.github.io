@@ -17,17 +17,24 @@
     justify-content: space-between;
 }
 
-.header-menu--author-logo img{
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_img {
     height: 60px;
     width: 60px;
     border-radius: 50%;
     border: 1px solid #000;
 }
 
-.header-menu--author-name {
+.user_link {
     display: flex;
     align-items: center;
     font-family: 'FiraSans-Regular';
+    text-decoration: none;
+    color: #000;
     font-weight: 200;
     font-size: 18px;
     margin-left: 20px;
