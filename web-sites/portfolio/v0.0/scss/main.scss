@@ -32,12 +32,12 @@
        
 }
 
-.border-active {
+.menu-items--active {
     border-right: 5px solid $color_link;
     color: $color_link;
 }
 
-.border-passed {
+.menu-items--passed {
     border-right: 5px solid $color_wrapper;
 }
 
@@ -47,11 +47,11 @@
 
 }
 
-.link-active {
+.menu-items-link--active {
     color: $color_link;
 }
 
-.link-passed {
+.menu-items-link--passed {
     color: #000;
 }
 
@@ -59,7 +59,7 @@
     color: $color_link;
 }
 
-.main-page--about {
+.user-about {
     display: flex;
     flex: 1 2 auto;
     margin: 30px 0;
@@ -68,33 +68,33 @@
     flex-direction: row;
 }
 
-.main-page--about-photo img {
+.user-about--photo__img {
     border-radius: 50%;
     height: 220px;
     width: 220px;
 }
 
-.main-page--about-description {
+.user-about--description {
     // background-color: #eaeaea;
     width: 380px;
 }
 
-.description-title {
+.user-about--description--title {
     display: flex;
     justify-content: flex-start;
 }
 
-.description-title  strong {
+.user-about--description--title__item {
     font-family: 'FiraSans-Medium';
     font-size: 35px;
     font-weight: 400;
 }
 
-.description-about {
+.user-about--description--text {
     display: block
 }
 
-.description-about p {
+.user-about--description--text__item {
     font-family: 'FiraSans-Light';
     font-size: 18px;
     font-weight: normal;
