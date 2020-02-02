@@ -1,7 +1,35 @@
 # Vitaly2016A-s.github.io
 
-Мой учебный сайт-репозиторий.
-Тренировки. Вёрстка. Программирование.
+---
+## Resume
+
+### Vitaly Anischenko
+
+E-mail: vitaliy.a.2015@mail.ru
+
+Web Site: www.j-vito.com
+
+Mobile Phone: +7(925)135-96-15
+
+### Basic info
+
+I'm a web developer.
+
+### Skills:
+
+  - HTML/HTML5
+  - CSS/CSS3
+  - JavaScript/ES6
+  - jQuery
+  - PHP, MySQL, Python
+  - PhotoShop, GIMP, Figma
+  - Git, GitHub, Bitbucket
+  - VS Code, Vim, Notepad++
+  - Webflow
+
+### Location
+
+Russia.
 
 ---
 ## Web Site j-vito.com
